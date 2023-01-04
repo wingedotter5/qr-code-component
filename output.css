@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(220deg, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+  display: grid;
+  place-items: center center;
+  height: 100vh;
+}
+
+.card {
+  width: 340px;
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+.card div {
+  padding: 10px;
+}
+.card div h2 {
+  color: hsl(218deg, 44%, 22%);
+  margin-bottom: 20px;
+}
+.card div p {
+  color: gray;
+}
+
+/*# sourceMappingURL=output.css.map */
