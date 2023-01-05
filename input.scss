@@ -16,10 +16,14 @@ body {
   display: grid;
   place-items: center center;
   min-height: 100vh;
+
+  @media screen and (max-width: 375px) {
+    padding: 0 10px;
+  }
 }
 
 .card {
-  width: 340px;
+  max-width: 340px;
   background-color: $white;
   padding: 20px;
   border-radius: $border-radius;
@@ -46,12 +50,6 @@ body {
   }
 }
 
-.sr-only:not(:focus):not(:active) {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+.screen-only {
+  visibility: hidden;
 }
