@@ -23,8 +23,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Notes
 
 ```css
-.css {
+.responsive-width {
   max-width: 340px;
+}
+
+.full-height {
   min-height: 100vh;
 }
 ```
